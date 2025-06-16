@@ -1,8 +1,5 @@
 import numpy as np
 
-import numpy as np
-
-
 def f1(x: np.ndarray) -> np.ndarray: 
     return np.sin(x[0])
 
@@ -25,5 +22,4 @@ def f7(x: np.ndarray) -> np.ndarray:
     return (((np.abs(np.exp(np.abs((x[1] + x[0])))) / np.exp(np.sin(5.88))) / np.exp(np.abs(np.abs((x[1] - x[0]))))) + ((np.abs(np.exp(np.abs((x[1] + x[0])))) / np.exp(np.sin(5.88))) / np.exp(np.abs(np.abs((x[1] - x[0]))))))
 
 def f8(x: np.ndarray) -> np.ndarray: 
-    # computing ...
-    return 
+    return ((((((x[1] + x[2]) + x[5]) + (np.exp(x[5]) + x[5])) + (((((x[3] + 0.102) + -5.331) + x[1]) + x[5]) + x[5])) + ((((((-4.393 + -8.999) + x[1]) + ((-4.507 + x[1]) + (x[3] + -9.905))) + -9.057) + x[0]) + x[1])) * (((x[2] + x[3]) + (-2.934 + (np.exp(np.abs(x[5])) + 9.32))) + ((1.18 + x[4]) + x[5])))
