@@ -1,7 +1,10 @@
 # Computational Intelligence 2024 Project - CI2024_project-work
 ## Symbolic Regression
 This project addresses a symbolic regression task using Genetic Programming (GP). The objective is to automatically evolve mathematical expressions that accurately fit a set of input-output data points.  
-_Note: logs of generations will not be present in the github folder because I used kaggle-servers to run all_
+    
+_Notes:_  
+   - _Logs of generations will not be present in the github folder because I used kaggle-servers to run all_  
+   - _Problem 8 was very slow so i decided to set less generations, but it was still improving_
 
 ## Strategy
 An initial population of random formulas is generated and iteratively improved over several generations using genetic operations and other strategies. In detail:
